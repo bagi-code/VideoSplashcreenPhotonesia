@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_background"
+    android:gravity="center"
+    tools:context="com.bagicode.www.videosplashcreenphotonesia.MainActivity">
+
+    <RelativeLayout
+        android:background="#9cff6de4"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/imageIcon"
+            android:src="@android:drawable/ic_menu_camera"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <TextView
+            android:padding="10dp"
+            android:textSize="25dp"
+            android:layout_toRightOf="@id/imageIcon"
+            android:id="@+id/textApp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Photonesia" />
+
+        <TextView
+            android:id="@+id/textDesk"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:layout_below="@id/imageIcon"
+            android:text="Take a picture every moments and make then to be your memories of your life"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:background="#fff"
+            android:textColor="#ff6de4"
+            android:text="Get started"
+            android:layout_below="@id/textDesk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
